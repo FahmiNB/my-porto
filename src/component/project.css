@@ -1,0 +1,44 @@
+.container-background-projek {
+    background-color: #386FA4;
+    width: 97%;
+    margin: auto;
+    padding: 10%;
+    padding-top: 5%;
+    margin-top: 1%;
+    border-radius: 25px;
+    background-image: url("./images/light-blue-wave.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projek {
+    width: 190px;
+    margin-left: 43%;
+    margin-right: 43%;
+    margin-bottom: 2%;
+    background-color: #091540;
+    border-radius: 10px 10px 100px 100px;
+    padding: 10px 25px 25px 25px ;
+}
+
+.paragraf {
+    color: #FCF7F8;
+    font-size: medium;
+}
+
+.title-project {
+    color: #FCF7F8;
+}
+
+.imgTimKami {
+    width: 20%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.imgProjectdphoto {
+    width: 2%;
+}
