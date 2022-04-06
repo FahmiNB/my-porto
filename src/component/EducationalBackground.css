@@ -47,7 +47,7 @@ td {
 
 @media all and (max-width: 670px) {
     .pendidikan {
-        width: 120px;
+        width: 80px;
         margin-left: 38%;
         margin-right: 43%;
         margin-bottom: 2%;
@@ -57,7 +57,7 @@ td {
     }
     .container-Educational-Background {
         background-color: #386FA4;
-        width: 128%;
+        width: 100%;
         margin: auto;
         padding: 10%;
         padding-top: 5%;
@@ -68,7 +68,7 @@ td {
     }
 
     .title {
-        font-size: 120%;
+        font-size: 80%;
         background-color: #091540;
         border-radius: 10px 10px 0 0;
         padding-top: 1px;
@@ -76,7 +76,7 @@ td {
     }
 
     .name-year {
-        font-size: 80%;
+        font-size: 70%;
         background-color: #386FA4;
         border-radius: 0 0 10px 10px;
     }
