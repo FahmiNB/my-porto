@@ -69,8 +69,7 @@ class Project extends React.Component {
                 </Card.Title>
                 <Card.Text>
                   <h4 className="paragraf">
-                    Halaman web tentang tampilan tim, terdapat tentang kami dan
-                    profil anggota beserta role
+                    Halaman landing page memberi informasi tentang UMKM Pratistha Harsa
                   </h4>
                 </Card.Text>
               </Card.Body>
