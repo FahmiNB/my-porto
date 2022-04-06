@@ -102,4 +102,19 @@
     transition: 0.3s ease-in-out;
   }
 
-  
+  @media all and (max-width: 670px) {
+    .container-background-sertifikat  {
+        background-color: #386FA4;
+        width: 127%;
+        margin: auto;
+        padding: 10%;
+        padding-top: 5%;
+        margin-top: 1%;
+        border-radius: 25px;
+        background-image: url("./images/png-transparent-blue-watercolor-background-watercolor-simple-dream-thumbnail.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+  }

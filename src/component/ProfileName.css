@@ -51,3 +51,58 @@
     border-radius: 30px;
 }
 
+@media all and (max-width: 670px) {
+    .container-About {
+        width: 127%;
+        margin: auto;
+        background-color: #091540;
+        padding: 10%;
+        margin-top: 1%;
+        border-radius: 25px;
+    }
+
+    .halo{
+        color: #FCF7F8;
+        font-size: 400%;
+        padding: 20px;
+    }
+    
+    
+    
+    .name {
+        color: #FCF7F8;
+        font-size: 154%;
+        padding: 20px;
+    }
+    
+    .saya {
+        color: #091540;
+        background-color: #07BEB8;
+        border-radius: 10px;
+    }
+    
+    .About-me   { 
+        color: #FCF7F8;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 65%;
+        padding: 20px;
+    }
+    
+    .vacational-Base {
+        color: #FCF7F8;
+        font-size: 100%;
+        padding: 20px;
+        padding-top: 1px;
+    }
+    
+    .photo {
+        float: left;
+        position: absolute;
+        left: 73.3%;
+        top: 2.6%;
+        width: 54.3%;
+        border-radius: 30px;
+    }
+    
+}
