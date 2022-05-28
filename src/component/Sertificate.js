@@ -20,6 +20,7 @@ import serttifikatSerkom from './images/SERTIFIKAT SERKOM JWD-1.png';
 import serttifiBekraf from './images/Bekraf Developer Day 2018 - Yogyakarta Certificate.png';
 import serttifijava from './images/sertifikat_course_60_23574_110222042201-1.png';
 import serttifijavascript from './images/Dicoding Javascript-1.png';
+import sertifikatDTSPROGRATE from './images/SERTIFIKAT PELATIHAN Front End Developer (HTML, CSS, Java Script) 1.jpg'
 
 class Sertificate extends React.Component {
   render() {
@@ -115,6 +116,9 @@ class Sertificate extends React.Component {
           <Card>
             <Card.Link href="https://drive.google.com/file/d/1UH0skmPnQiyof4ZnXXnMXf62CMCjUeYi/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={serttifiBekraf} />
+            </Card.Link>
+            <Card.Link href="https://drive.google.com/file/d/1aQINkAWrar1xvS-39YcuJ-49o3XoObi9/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={sertifikatDTSPROGRATE} />
             </Card.Link>
           </Card>
         </CardGroup>
