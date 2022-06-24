@@ -21,6 +21,12 @@ import serttifiBekraf from './images/Bekraf Developer Day 2018 - Yogyakarta Cert
 import serttifijava from './images/sertifikat_course_60_23574_110222042201-1.png';
 import serttifijavascript from './images/Dicoding Javascript-1.png';
 import sertifikatDTSPROGRATE from './images/SERTIFIKAT PELATIHAN Front End Developer (HTML, CSS, Java Script) 1.jpg'
+import sertifikatITsupprortDasarDukunganTeknis from './images/Coursera 6EAW4HEZXWTY_Dasar Dukungan Teknis-1.png';
+import serttifikatITsupportJaringan from './images/Coursera 6EAW4HEZXWTY_Seluk Beluk Jaringan Komputer-1.png';
+import serttifikatITsupportSO from './images/Coursera EHUQ75YD4PER_SO-1.png';
+import serttifikatITsupprotAdministrasi from './images/Coursera 7UHFCXRAEZLU_Administrasi Sistem dan Layanan Infrastruktur TI-1.png';
+import serttifikatITsupportKeamananIT from './images/Coursera WH84K62CWQHC_Keamanan IT Pertahanan terhadap Kejahatan Digital-1.png';
+import serttifikatITsupportProfesional from './images/Coursera AUP5GXGSME7B_IT Support Google Profesional-1.png'
 
 class Sertificate extends React.Component {
   render() {
@@ -119,6 +125,42 @@ class Sertificate extends React.Component {
             </Card.Link>
             <Card.Link href="https://drive.google.com/file/d/1aQINkAWrar1xvS-39YcuJ-49o3XoObi9/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={sertifikatDTSPROGRATE} />
+            </Card.Link>
+          </Card>
+        </CardGroup>
+
+        <CardGroup>
+        <Card>
+            <Card.Link href="https://drive.google.com/file/d/1fLAY63GMJXdPD0H57PPmu4voUT0YSsSd/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={sertifikatITsupprortDasarDukunganTeknis} />
+            </Card.Link>
+          </Card>
+          <Card>
+            <Card.Link href="https://drive.google.com/file/d/1Ii4SGCoWMUm2BAr61rC1M7-FnNX2O1gE/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={serttifikatITsupportJaringan} />
+            </Card.Link>
+          </Card>
+          <Card>
+            <Card.Link href="https://drive.google.com/file/d/1e4PbB59bSl5SE-_36TkpMfABladh0alA/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={serttifikatITsupportSO} />
+            </Card.Link>
+          </Card>
+        </CardGroup>
+
+        <CardGroup>
+        <Card>
+            <Card.Link href="https://drive.google.com/file/d/10kRKmQsQ71U5pLXRO7U3HXUO-0rAwwyz/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={serttifikatITsupprotAdministrasi} />
+            </Card.Link>
+          </Card>
+          <Card>
+            <Card.Link href="https://drive.google.com/file/d/1iZv_PllqdycpHAijNsflch_z-sRUzQh_/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={serttifikatITsupportProfesional} />
+            </Card.Link>
+          </Card>
+          <Card>
+            <Card.Link href="https://drive.google.com/file/d/1iZv_PllqdycpHAijNsflch_z-sRUzQh_/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={sertifikatLDK} />
             </Card.Link>
           </Card>
         </CardGroup>
