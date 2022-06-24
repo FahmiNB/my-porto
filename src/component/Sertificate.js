@@ -155,12 +155,12 @@ class Sertificate extends React.Component {
           </Card>
           <Card>
             <Card.Link href="https://drive.google.com/file/d/1iZv_PllqdycpHAijNsflch_z-sRUzQh_/view?usp=sharing">
-              <Card.Img className="imgProject" variant="top" src={serttifikatITsupportProfesional} />
+              <Card.Img className="imgProject" variant="top" src={serttifikatITsupportKeamananIT} />
             </Card.Link>
           </Card>
           <Card>
-            <Card.Link href="https://drive.google.com/file/d/1iZv_PllqdycpHAijNsflch_z-sRUzQh_/view?usp=sharing">
-              <Card.Img className="imgProject" variant="top" src={sertifikatLDK} />
+            <Card.Link href="https://drive.google.com/file/d/1aYdTBAzJrl9xc-1_2oA5HRz6JvI87mcL/view?usp=sharing">
+              <Card.Img className="imgProject" variant="top" src={serttifikatITsupportProfesional} />
             </Card.Link>
           </Card>
         </CardGroup>
