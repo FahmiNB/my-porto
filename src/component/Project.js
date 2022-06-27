@@ -15,13 +15,17 @@ import reactJS from './images/react-js.png';
 import MIBU from './images/UI MIBU.png';
 import dphoto from './images/UI D.Photo.png';
 import figma from './images/figma.png';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "aos";
 
 class Project extends React.Component {
   render() {
+    Aos.init();
     return (
-      <div className="container-background-projek">
-        <img className="projek" src={projek} />
-        <CardGroup>
+      <div data-aos="fade-up" data-aos-duration="1000" className="container-background-projek">
+        <img data-aos="zoom-in" className="projek"  src={projek} />
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
           <Card>
             <Card.Link href="https://a15-timkami.vercel.app/">
               <Card.Img className="imgProject" variant="top" src={timKami} />
@@ -80,7 +84,7 @@ class Project extends React.Component {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
           <Card>
             <Card.Link href="https://calculator-github-io-six.vercel.app/">
               <Card.Img className="imgProject" variant="top" src={kalkulator} />

@@ -10,7 +10,7 @@ class ProfilName extends React.Component {
             <div className='container-About'>
                <h1 className='halo'>Haloo...</h1>
                <span className='name'><span className='saya'>Saya</span> Fahmi Nur Baihaqi</span>
-               <p className='About-me'>Saya orang suka belajar mandiri atau autodidak yang memungkinkan memahami 
+               <p className='About-me' align="justify">Saya orang suka belajar mandiri atau autodidak yang memungkinkan memahami 
                sesuatu terlebih dahulu baru berdiskusi atau bersosialisasi, saya orang yang tenang lebih 
                suka menyimak dan melaksanakan tetapi jika ada perlu bantuan saya mengajarkan dengan bijak.  </p>
                

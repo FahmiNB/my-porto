@@ -1,14 +1,17 @@
 import React from 'react';
 import './EducationalBackground.css'
 import Pendidikan from './images/pendidikan.png'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "aos";
 
 class EducationalBackground extends React.Component {
     render () {
-        
+        Aos.init();
         return (
-            <div className='container-Educational-Background'>
-                <img className='pendidikan' src={Pendidikan}/>
-            <table>
+            <div data-aos="fade-up" data-aos-duration="3000" className='container-Educational-Background'>
+                <img data-aos="zoom-in" data-aos-duration="2000" className='pendidikan' src={Pendidikan}/>
+            <table data-aos="zoom-in " data-aos-duration="2000">
             <tr>
                 <th className='title'>Sekolah Dasar </th>
                 <th></th>

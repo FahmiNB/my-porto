@@ -4,6 +4,9 @@ import "./Sertificate.css";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "aos";
 import sertifikatAsistenPraktikum from './images/SERTIFIKAT Asisten Praktikum Pemograman Game.png';
 import sertifikatDasarWeb from './images/SERTIFIKAT DASAR WEB-1.png';
 import sertifikatFrontEnd from './images/E-Certificate Frontend Fundamental 2022 - Fahmi Nur Baihaqi.png';
@@ -30,10 +33,11 @@ import serttifikatITsupportProfesional from './images/Coursera AUP5GXGSME7B_IT S
 
 class Sertificate extends React.Component {
   render() {
+    Aos.init();
     return (
-      <div className="container-background-sertifikat">
-        <img className="projek" src={sertifikat} />
-        <CardGroup>
+      <div data-aos="fade-up" data-aous-duration="3000" className="container-background-sertifikat">
+        <img data-aos="fade-up" data-aos-duration="2000" className="projek" src={sertifikat} />
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
           <Card>
             <Card.Link href="https://drive.google.com/file/d/1fw1yTDyFbJe7K_m2SpiowJwOhtXuPSw2/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={sertifikatAsistenPraktikum} />
@@ -51,7 +55,7 @@ class Sertificate extends React.Component {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
         <Card>
             <Card.Link href="https://drive.google.com/file/d/11bKLWLkvcXfJ08z_vmEWcamhtKX5Ei4-/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={sertifikatJavascript} />
@@ -69,7 +73,7 @@ class Sertificate extends React.Component {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
         <Card>
             <Card.Link href="https://drive.google.com/file/d/1Mql0PLwhUv4EcU2czG60kUyWLrk5WIK6/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={sertifikatPengembanganwebNode} />
@@ -87,7 +91,7 @@ class Sertificate extends React.Component {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
         <Card>
             <Card.Link href="https://drive.google.com/file/d/1c8QYtxXIw1v3bNzsrdisXe4DF_pBm7CY/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={sertifikatPKLSMK} />
@@ -105,7 +109,7 @@ class Sertificate extends React.Component {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
         <Card>
             <Card.Link href="https://drive.google.com/file/d/1uzywcT1FsnFoArm0lcvL792pI6hZuiAf/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={serttifijava} />
@@ -129,7 +133,7 @@ class Sertificate extends React.Component {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
         <Card>
             <Card.Link href="https://drive.google.com/file/d/1fLAY63GMJXdPD0H57PPmu4voUT0YSsSd/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={sertifikatITsupprortDasarDukunganTeknis} />
@@ -147,7 +151,7 @@ class Sertificate extends React.Component {
           </Card>
         </CardGroup>
 
-        <CardGroup>
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
         <Card>
             <Card.Link href="https://drive.google.com/file/d/10kRKmQsQ71U5pLXRO7U3HXUO-0rAwwyz/view?usp=sharing">
               <Card.Img className="imgProject" variant="top" src={serttifikatITsupprotAdministrasi} />
