@@ -9,7 +9,7 @@
 
 .halo{
     color: #FCF7F8;
-    font-size: 500%;
+    font-size: 250%;
     padding: 20px;
 }
 
@@ -17,7 +17,7 @@
 
 .name {
     color: #FCF7F8;
-    font-size: 400%;
+    font-size: 200%;
     padding: 20px;
 }
 
@@ -29,7 +29,7 @@
 
 .About-me   { 
     color: #FCF7F8;
-    font-size: 200%;
+    font-size: 100%;
     margin-left: 0%;
     width: 65%;
     padding: 20px;
@@ -37,7 +37,7 @@
 
 .vacational-Base {
     color: #FCF7F8;
-    font-size: 200%;
+    font-size: 100%;
     padding: 20px;
     padding-top: 1px;
 }

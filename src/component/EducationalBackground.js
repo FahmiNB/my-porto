@@ -9,9 +9,9 @@ class EducationalBackground extends React.Component {
     render () {
         Aos.init();
         return (
-            <div data-aos="fade-up" data-aos-duration="3000" className='container-Educational-Background'>
-                <img data-aos="zoom-in" data-aos-duration="2000" className='pendidikan' src={Pendidikan}/>
-            <table data-aos="zoom-in " data-aos-duration="2000">
+            <div data-aos="fade-up" data-aos-duration="1000" className='container-Educational-Background'>
+                <img data-aos="zoom-in" data-aos-duration="1000" className='pendidikan' src={Pendidikan}/>
+            <table data-aos="zoom-in " data-aos-duration="1000">
             <tr>
                 <th className='title'>Sekolah Dasar </th>
                 <th></th>
