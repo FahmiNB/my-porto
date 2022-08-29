@@ -153,7 +153,7 @@ class Project extends React.Component {
               <Card.Img className="imgProject" variant="top" src={noteApp} />
               <Card.Body style={{ backgroundColor: "#394032" }}>
                 <Card.Title>
-                  <h3 className="title-project">aplikasi Note</h3>
+                  <h3 className="title-project">Aplikasi Note</h3>
                 </Card.Title>
                 <Card.Text>
                   <h4 className="paragraf">
@@ -171,11 +171,11 @@ class Project extends React.Component {
               <Card.Img className="imgProject" variant="top" src={laravelApp}/>
               <Card.Body style={{ backgroundColor: "#394032" }}>
                 <Card.Title className="title-lesson">
-                  <h3 className="title-project">aplikasi kasir</h3>
+                  <h3 className="title-project">Aplikasi kasir</h3>
                 </Card.Title>
                 <Card.Text>
                   <h6 className="paragraf">
-                    aplikasi kasir dibuat sebagai tugas besar perkuliahan yang dibuat dengan tim kelas ber anggota 4, mempelajari tentang desain pemograman web. aplikasi dibuat menggunakan framework laravel
+                    Aplikasi kasir dibuat sebagai tugas besar perkuliahan yang dibuat dengan tim kelas ber anggota 4, mempelajari tentang desain pemograman web. aplikasi dibuat menggunakan framework laravel
                   </h6>
                 </Card.Text>
               </Card.Body>
@@ -189,11 +189,11 @@ class Project extends React.Component {
               <Card.Img className="imgProjectdphoto" style={{ height: "50%", width: "100%" }} variant="top" src={contactApp} />
               <Card.Body style={{ backgroundColor: "#394032" }}>
                 <Card.Title className="title-UMKM">
-                  <h3 className="title-project">contact App</h3>
+                  <h3 className="title-project">Contact App</h3>
                 </Card.Title>
                 <Card.Text>
                   <h4 className="paragraf">
-                    aplikasi tambah kontak latihan react di kelas Dicoding dengan menggunakan setState dengan react component
+                    Aplikasi tambah kontak latihan react di kelas Dicoding dengan menggunakan setState dengan react component
                   </h4>
                 </Card.Text>
               </Card.Body>
