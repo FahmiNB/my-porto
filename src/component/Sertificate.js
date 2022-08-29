@@ -40,7 +40,7 @@ class Sertificate extends React.Component {
     return (
       <div data-aos="fade-up" data-aous-duration="3000" className="container-background-sertifikat">
         <img data-aos="fade-up" data-aos-duration="2000" className="projek" src={sertifikat} />
-        // grup sertificate
+        
         <CardGroup data-aos="zoom-in" data-aos-duration="2000">
           <Card>
             <Card.Link href="https://drive.google.com/file/d/1fw1yTDyFbJe7K_m2SpiowJwOhtXuPSw2/view?usp=sharing">
