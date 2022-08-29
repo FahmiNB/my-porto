@@ -15,7 +15,8 @@ import reactJS from './images/react-js.png';
 import MIBU from './images/UI MIBU.png';
 import dphoto from './images/UI D.Photo.png';
 import figma from './images/figma.png';
-import laravel from './images/AplikasiKasir.png';
+import laravel from './images/laravel.png'
+import laravelApp from './images/AplikasiKasir.png';
 import contactApp from './images/ContactApp.png';
 import noteApp from './images/AplikasiNote.png';
 import Aos from "aos";
@@ -141,6 +142,63 @@ class Project extends React.Component {
               </Card.Body>
               <Card.Footer>
                 <img className="logo" style={{paddingTop:"5%"}} src={figma}/>
+              </Card.Footer>
+            </Card.Link>
+          </Card>
+        </CardGroup>
+
+        <CardGroup data-aos="zoom-in" data-aos-duration="2000">
+          <Card>
+            <Card.Link href="https://aplikasi-catatan-pribadi-main.vercel.app/">
+              <Card.Img className="imgProject" variant="top" src={kalkulator} />
+              <Card.Body style={{ backgroundColor: "#394032" }}>
+                <Card.Title>
+                  <h3 className="title-project">aplikasi Note</h3>
+                </Card.Title>
+                <Card.Text>
+                  <h4 className="paragraf">
+                    Project ini di dapat dari kelas belajar membuat website dengan rect js. Fundamental kelas Dicoding
+                  </h4>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+              <img className="logo"  src={reactJS}/>
+              </Card.Footer>
+            </Card.Link>
+          </Card>
+          <Card className="card">
+            <Card.Link href="https://tubesdpw.000webhostapp.com/">
+              <Card.Img className="imgProject" variant="top" src={MIBU}/>
+              <Card.Body style={{ backgroundColor: "#394032" }}>
+                <Card.Title className="title-lesson">
+                  <h3 className="title-project">aplikasi kasir</h3>
+                </Card.Title>
+                <Card.Text>
+                  <h6 className="paragraf">
+                    aplikasi kasir dibuat sebagai tugas besar perkuliahan yang dibuat dengan tim kelas ber anggota 4, mempelajari tentang desain pemograman web. aplikasi dibuat menggunakan framework laravel
+                  </h6>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+              <img className="logo" style={{paddingTop:"5%"}} src={laravel}/>
+              </Card.Footer>
+            </Card.Link>
+          </Card>
+          <Card className="card">
+            <Card.Link href="https://contacts-app-orcin.vercel.app/">
+              <Card.Img className="imgProjectdphoto" style={{ height: "70%", width: "100%" }} variant="top" src={dphoto} />
+              <Card.Body style={{ backgroundColor: "#394032" }}>
+                <Card.Title className="title-UMKM">
+                  <h3 className="title-project">contact App</h3>
+                </Card.Title>
+                <Card.Text>
+                  <h4 className="paragraf">
+                    aplikasi tambah kontak latihan react di kelas Dicoding dengan menggunakan setState
+                  </h4>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <img className="logo" src={reactJS}/>
               </Card.Footer>
             </Card.Link>
           </Card>
