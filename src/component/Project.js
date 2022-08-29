@@ -193,7 +193,7 @@ class Project extends React.Component {
                 </Card.Title>
                 <Card.Text>
                   <h4 className="paragraf">
-                    aplikasi tambah kontak latihan react di kelas Dicoding dengan menggunakan setState
+                    aplikasi tambah kontak latihan react di kelas Dicoding dengan menggunakan setState dengan react component
                   </h4>
                 </Card.Text>
               </Card.Body>
