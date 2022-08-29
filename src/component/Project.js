@@ -150,7 +150,7 @@ class Project extends React.Component {
         <CardGroup data-aos="zoom-in" data-aos-duration="2000">
           <Card>
             <Card.Link href="https://aplikasi-catatan-pribadi-main.vercel.app/">
-              <Card.Img className="imgProject" variant="top" src={kalkulator} />
+              <Card.Img className="imgProject" variant="top" src={noteApp} />
               <Card.Body style={{ backgroundColor: "#394032" }}>
                 <Card.Title>
                   <h3 className="title-project">aplikasi Note</h3>
@@ -168,7 +168,7 @@ class Project extends React.Component {
           </Card>
           <Card className="card">
             <Card.Link href="https://tubesdpw.000webhostapp.com/">
-              <Card.Img className="imgProject" variant="top" src={MIBU}/>
+              <Card.Img className="imgProject" variant="top" src={laravelApp}/>
               <Card.Body style={{ backgroundColor: "#394032" }}>
                 <Card.Title className="title-lesson">
                   <h3 className="title-project">aplikasi kasir</h3>
@@ -186,7 +186,7 @@ class Project extends React.Component {
           </Card>
           <Card className="card">
             <Card.Link href="https://contacts-app-orcin.vercel.app/">
-              <Card.Img className="imgProjectdphoto" style={{ height: "70%", width: "100%" }} variant="top" src={dphoto} />
+              <Card.Img className="imgProjectdphoto" style={{ height: "50%", width: "100%" }} variant="top" src={contactApp} />
               <Card.Body style={{ backgroundColor: "#394032" }}>
                 <Card.Title className="title-UMKM">
                   <h3 className="title-project">contact App</h3>
