@@ -12,9 +12,11 @@ class ProfilName extends React.Component {
                <span className='name'><span className='saya'>Saya</span> Fahmi Nur Baihaqi</span>
                <p className='About-me' align="justify">Saya orang suka belajar mandiri atau autodidak yang memungkinkan memahami 
                sesuatu terlebih dahulu baru berdiskusi atau bersosialisasi, saya orang yang tenang lebih 
-               suka menyimak dan melaksanakan tetapi jika ada perlu bantuan saya mengajarkan dengan bijak.  </p>
+               suka menyimak dan melaksanakan tetapi jika ada perlu bantuan saya mengajarkan dengan bijak serta mampu bekerja dalam tim.
+               Saya sedang mencari pekerjaan di utamakan pada Front End Developer selainnya pada bidang IT  </p>
                
-               <p className='vacational-Base'>Basik kejuruan di SMK, Perkuliahan saya mengambil software angineer dan menyukai desain grafik.  </p>
+               <p className='vacational-Base'>Basik kejuruan di SMK jurusan software angineering, Perkuliahan saya mengambil software angineering dan menyukai desain grafik.  </p>
+               
                <img className='photo' src={profile}/>
             </div>
         );
