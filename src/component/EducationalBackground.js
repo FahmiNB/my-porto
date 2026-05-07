@@ -1,42 +1,57 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './EducationalBackground.css'
 import Pendidikan from './images/pendidikan.png'
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "aos";
 
-class EducationalBackground extends React.Component {
-    render () {
-        Aos.init();
-        return (
-            <div data-aos="fade-up" data-aos-duration="1000" className='container-Educational-Background'>
-                <img data-aos="zoom-in" data-aos-duration="1000" className='pendidikan' src={Pendidikan}/>
-            <table data-aos="zoom-in " data-aos-duration="1000">
-            <tr>
-                <th className='title'>Sekolah Dasar </th>
-                <th></th>
-                <th className='title'> Sekolah Menengah Pertama </th>
-            </tr>
-            <tr>
-                <td className='name-year'>MI MA'ARIF NU KEDUNGRANDU 2006 - 2011</td>
-                <td></td>
-                <td className='name-year'>SMPN 2 KARANGLEWAS 2013 - 2016</td>
-            </tr>
-             <tr>
-                <th className='title'>Sekolah Menengah Kejuruan </th>
-                <th></th>
-                <th className='title'> Kuliah </th>
-            </tr>
-            <tr>
-                <td className='name-year'>SMK TELKOM SANDHY PUTRA PURWOKERTO    (RPL) 2016 - 2018</td>
-                <td></td>
-                <td className='name-year'>INSTITUT TEKNOLOGI TELKOM PURWOKERTO  (S1 RPL) 2018 - 2022</td>
-            </tr>
-                </table> 
+export default function EducationalBackground() {
+
+    useEffect(() => {
+        Aos.init({ once: true });
+    }, []);
+
+    return (
+        <div id='Education' className='edu-wrapper'>
+
+            <h2 className='edu-title' data-aos="fade-up">
+                Educational Background
+            </h2>
+
+            <div className='edu-container'>
+
+                <div className='edu-left' data-aos="fade-right">
+                    <img src={Pendidikan} alt="pendidikan" />
+                </div>
+
+                <div className='edu-right'>
+
+                    <div className='edu-card' data-aos="fade-up">
+                        <h3>Sekolah Dasar</h3>
+                        <p>MI Ma'arif NU Kedungrandu</p>
+                        <span>2006 - 2011</span>
+                    </div>
+
+                    <div className='edu-card' data-aos="fade-up" data-aos-delay="100">
+                        <h3>SMP</h3>
+                        <p>SMPN 2 Karanglewas</p>
+                        <span>2013 - 2016</span>
+                    </div>
+
+                    <div className='edu-card' data-aos="fade-up" data-aos-delay="200">
+                        <h3>SMK (RPL)</h3>
+                        <p>SMK Telkom Sandhy Putra Purwokerto</p>
+                        <span>2016 - 2018</span>
+                    </div>
+
+                    <div className='edu-card' data-aos="fade-up" data-aos-delay="300">
+                        <h3>Kuliah (S1 RPL)</h3>
+                        <p>Institut Teknologi Telkom Purwokerto</p>
+                        <span>2018 - 2022</span>
+                    </div>
+
+                </div>
             </div>
-                
-        );
-    }
-}
 
-export default EducationalBackground;
+        </div>
+    );
+}

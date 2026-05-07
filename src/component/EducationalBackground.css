@@ -1,85 +1,73 @@
-.title, .name-year{
-    color: #FCF7F8;
+/* WRAPPER */
+.edu-wrapper {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.pendidikan {
-    width: 200px;
-    margin-left: 43%;
-    margin-right: 43%;
-    margin-bottom: 2%;
-    background-color: #091540;
-    border-radius: 10px 10px 100px 100px;
-    padding-top: 25px;
-}
-.container-Educational-Background {
-    background-color: #386FA4;
-    width: 97%;
-    margin: auto;
-    padding: 10%;
-    padding-top: 5%;
-    margin-top: 1%;
-    border-radius: 25px;
-    background-image: url("./images/pngtree-flat-education-office-stationery-background-image_193764.jpg");
-    background-size: 100%;
+/* TITLE */
+.edu-title {
+  font-size: 32px;
+  color: #e2e8f0;
+  margin-bottom: 50px;
 }
 
-table  {
-    text-align: center;
+/* CONTAINER */
+.edu-container {
+  display: flex;
+  gap: 60px;
+  width: 90%;
+  max-width: 1100px;
+  align-items: center;
 }
 
-.title {
-    font-size: 200%;
-    background-color: #091540;
-    border-radius: 10px 10px 0 0;
-    padding-top: 1px;
-    margin-top: 2%;
+/* LEFT IMAGE */
+.edu-left img {
+  width: 280px;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
 }
 
-.name-year {
-    font-size: 150%;
-    background-color: #386FA4;
-    border-radius: 0 0 10px 10px;
+/* RIGHT LIST */
+.edu-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-td {
-    padding: 2% 2% 2% 2%;
+/* CARD */
+.edu-card {
+  padding: 20px 25px;
+  border-radius: 18px;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+  transition: 0.3s;
 }
 
-@media all and (max-width: 670px) {
-    .pendidikan {
-        width: 80px;
-        margin-left: 38%;
-        margin-right: 43%;
-        margin-bottom: 2%;
-        background-color: #091540;
-        border-radius: 10px 10px 100px 100px;
-        padding-top: 25px;
-    }
-    .container-Educational-Background {
-        background-color: #386FA4;
-        width: 100%;
-        margin: auto;
-        padding: 10%;
-        padding-top: 5%;
-        margin-top: 1%;
-        border-radius: 25px;
-        background-image: url("./images/pngtree-flat-education-office-stationery-background-image_193764.jpg");
-        background-size: 100%;
-    }
-
-    .title {
-        font-size: 80%;
-        background-color: #091540;
-        border-radius: 10px 10px 0 0;
-        padding-top: 1px;
-        margin-top: 2%;
-    }
-
-    .name-year {
-        font-size: 70%;
-        background-color: #386FA4;
-        border-radius: 0 0 10px 10px;
-    }
+/* HOVER */
+.edu-card:hover {
+  transform: translateY(-5px);
 }
 
+/* TEXT */
+.edu-card h3 {
+  color: #38bdf8;
+  font-size: 18px;
+}
 
+.edu-card p {
+  margin-top: 5px;
+  color: #e2e8f0;
+}
+
+.edu-card span {
+  font-size: 13px;
+  color: #94a3b8;
+}

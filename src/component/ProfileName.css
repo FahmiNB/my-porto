@@ -1,110 +1,184 @@
-.container-About {
-    width: 97%;
-    margin: auto;
-    background-color: #091540;
-    padding: 10%;
-    margin-top: 0%;
-    border-radius: 0 0 25px 25px;
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #020617,
+      #0f172a
+    );
+
+  overflow: hidden;
 }
 
-.halo{
-    color: #FCF7F8;
-    font-size: 250%;
-    padding: 20px;
+.card {
+
+  width: 950px;
+  height: 500px;
+
+  position: relative;
+
+  transform-style: preserve-3d;
+
+  transition:
+    transform 1s ease;
 }
 
+.card.flip {
+  transform: rotateY(180deg);
+}
 
+.card-face {
+
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 30px;
+
+  overflow: hidden;
+
+  backface-visibility: hidden;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.4);
+}
+
+/* ================= FRONT ================= */
+
+.card-front {
+
+  background:
+    rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(20px);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 60px;
+
+  color: white;
+}
+
+.left {
+  width: 45%;
+  z-index: 10;
+}
+
+.halo {
+  font-size: 65px;
+}
 
 .name {
-    color: #FCF7F8;
-    font-size: 200%;
-    padding: 20px;
+  font-size: 42px;
+  margin-top: 10px;
 }
 
-.saya {
-    color: #091540;
-    background-color: #07BEB8;
-    border-radius: 10px;
+.name span {
+  color: #00ffff;
 }
 
-.About-me   { 
-    color: #FCF7F8;
-    font-size: 100%;
-    margin-left: 0%;
-    width: 65%;
-    padding: 20px;
+.role {
+  margin-top: 20px;
+  color: #94a3b8;
+  font-size: 22px;
 }
 
-.vacational-Base {
-    color: #FCF7F8;
-    font-size: 100%;
-    padding: 20px;
-    width: 67%;
-    padding-top: 1px;
+.about {
+  margin-top: 20px;
+  line-height: 1.8;
+  color: #e2e8f0;
 }
 
-.photo {
-    float: left;
-    position: absolute;
-    left: 61.3%;
-    top: 12.4%;
-    width: 37.3%;
-    border-radius: 30px;
+/* ================= PROFILE ================= */
+
+.right {
+  z-index: 10;
 }
 
-@media all and (max-width: 670px) {
-    .container-About {
-        width: 100%;
-        margin: auto;
-        background-color: #091540;
-        padding: 10%;
-        margin-top: 1%;
-        border-radius: 25px;
-    }
+.right img {
 
-    .halo{
-        color: #FCF7F8;
-        font-size: 200%;
-        padding: 20px;
-    }
-    
-    
-    
-    .name {
-        color: #FCF7F8;
-        font-size: 100%;
-        padding: 20px;
-    }
-    
-    .saya {
-        color: #091540;
-        background-color: #07BEB8;
-        border-radius: 10px;
-    }
-    
-    .About-me   { 
-        color: #FCF7F8;
-        font-size: 80%;
-        margin-left: 0%;
-        width: 100%;
-        padding: 20px;
-    }
-    
-    .vacational-Base {
-        color: #FCF7F8;
-        font-size: 80%;
-        padding: 20px;
-        width: 67%;
-        padding-top: 1px;
-    }
-    
-    .photo {
-        float: left;
-        position: absolute;
-        left: 61%;
-        top: 7.4%;
-        width: 39.3%;
-        border-radius: 30px;
-    }
-    
+  width: 260px;
+
+  border-radius: 25px;
+
+  object-fit: cover;
+
+  border:
+    4px solid rgba(255,255,255,0.08);
+}
+
+/* ================= THREE ================= */
+
+.mikuCanvas {
+
+  position: fixed;
+
+  inset: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 999;
+
+  pointer-events: none;
+
+  overflow: hidden;
+}
+
+/* ================= BACK ================= */
+
+.card-back {
+
+  background:
+    linear-gradient(
+      135deg,
+      #06b6d4,
+      #0f172a
+    );
+
+  transform: rotateY(180deg);
+
+  padding: 60px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-back h1 {
+
+  font-size: 50px;
+
+  margin-bottom: 30px;
+}
+
+.detail {
+  margin-bottom: 20px;
+}
+
+.detail span {
+  color: #cbd5e1;
+}
+
+.detail p {
+
+  font-size: 24px;
+
+  margin-top: 5px;
+
+  font-weight: bold;
 }

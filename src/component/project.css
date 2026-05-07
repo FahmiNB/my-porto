@@ -1,74 +1,72 @@
-.container-background-projek {
-    background-color: #386FA4;
-    width: 97%;
-    margin: auto;
-    padding: 10%;
-    padding-top: 5%;
-    margin-top: 1%;
-    border-radius: 25px;
-    background-image: url("./images/light-blue-wave.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+.project-container {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.projek {
-    width: 190px;
-    margin-left: 43%;
-    margin-right: 43%;
-    margin-bottom: 2%;
-    background-color: #091540;
-    border-radius: 10px 10px 100px 100px;
-    padding: 10px 25px 25px 25px ;
+.project-title {
+  display: block;
+  margin: 0 auto 50px;
+  width: 200px;
 }
 
-.paragraf {
-    color: #FCF7F8;
-    font-size: medium;
+/* GRID MODERN */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
 }
 
-.title-project {
-    color: #FCF7F8;
+/* CARD */
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: rgb(216, 214, 214);
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-.imgTimKami {
-    width: 20%;
+/* HOVER EFFECT */
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 
-.logo {
-    width: 20%;
+/* IMAGE */
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
-.imgProjectdphoto {
-    width: 2%;
+/* CONTENT */
+.project-content {
+  padding: 20px;
 }
 
-@media all and (max-width: 670px) {
-    .container-background-projek {
-        background-color: #386FA4;
-        width: 100%;
-        margin: auto;
-        padding: 10%;
-        padding-top: 5%;
-        margin-top: 1%;
-        border-radius: 25px;
-        background-image: url("./images/light-blue-wave.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.project-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 
-    .projek {
-        width: 80px;
-        margin-left: 39%;
-        margin-right: 43%;
-        margin-bottom: 2%;
-        background-color: #091540;
-        border-radius: 10px 10px 100px 100px;
-        padding: 10px 25px 25px 25px ;
-    }
-    
-    .card {
-        width: 100%;
-    }
+.project-content p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* TECH LOGO */
+.tech {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.tech img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
 }
