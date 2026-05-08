@@ -94,7 +94,7 @@ export default function Project() {
 
   return (
     <div id='Project' className="project-container">
-      <img src={projek} className="project-title" />
+      <img src={projek} alt="Project" className="project-title" />
 
       <div className="project-grid">
         {projects.map((item, i) => (
@@ -106,7 +106,7 @@ export default function Project() {
             className="project-card"
             data-aos="fade-up"
           >
-            <img src={item.img} className="project-img" />
+            <img src={item.img} alt={item.title} className="project-img" />
 
             <div className="project-content">
               <h3>{item.title}</h3>
@@ -114,7 +114,7 @@ export default function Project() {
 
               <div className="tech">
                 {item.tech.map((t, index) => (
-                  <img key={index} src={t} />
+                  <img key={index} src={t} alt={item.title} />
                 ))}
               </div>
             </div>

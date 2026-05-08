@@ -146,7 +146,7 @@ export default function Sertificate() {
 
   return (
     <div id='Sertificate' className="sertifikat-wrapper">
-      <img src={sertifikat} className="title" />
+      <img src={sertifikat} alt="Sertificate" className="title" />
 
       <div className="sertifikat-grid">
         {data.map((item, i) => (

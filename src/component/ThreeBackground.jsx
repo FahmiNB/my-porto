@@ -19,6 +19,8 @@ export default function ThreeBackground() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     mountRef.current.appendChild(renderer.domElement);
 
+    const mount = mountRef.current;
+
     // particles
     const geometry = new THREE.BufferGeometry();
     const particlesCount = 1000;
@@ -61,7 +63,7 @@ export default function ThreeBackground() {
     });
 
     return () => {
-      mountRef.current.removeChild(renderer.domElement);
+      mount.removeChild(renderer.domElement);
     };
   }, []);
 
