@@ -182,3 +182,118 @@
 
   font-weight: bold;
 }
+
+/* ================= MOBILE ================= */
+
+.mobile-btn {
+
+  margin-top: 25px;
+
+  padding: 14px 24px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  background: #00ffff;
+
+  color: #0f172a;
+
+  font-weight: bold;
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.mobile-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 768px) {
+
+  .wrapper {
+    padding: 100px 20px 40px;
+  }
+
+  .card {
+
+    width: 100%;
+
+    height: auto;
+
+    min-height: 700px;
+  }
+
+  .card-front {
+
+    flex-direction: column-reverse;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 40px 25px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    margin-bottom: 30px;
+  }
+
+  .right img {
+
+    width: 180px;
+  }
+
+  .halo {
+    font-size: 42px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .role {
+    font-size: 18px;
+  }
+
+  .about {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .card-back {
+
+    padding: 40px 25px;
+
+    justify-content: center;
+  }
+
+  .card-back h1 {
+
+    font-size: 34px;
+
+    margin-bottom: 25px;
+  }
+
+  .detail p {
+
+    font-size: 17px;
+
+    word-break: break-word;
+  }
+
+  /* kecilkan miku mobile */
+  .mikuCanvas canvas {
+
+    transform: scale(0.75);
+  }
+}

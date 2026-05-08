@@ -17,6 +17,17 @@ export default function ProfilName() {
   const targetX = useRef(-18);
 
   const [flip, setFlip] = useState(false);
+  const [isMobile, setIsMobile] =
+  useState(window.innerWidth <= 768);
+
+    const handleMobile = () => {
+    setIsMobile(window.innerWidth <= 768);
+  };
+
+  window.addEventListener(
+    "resize",
+    handleMobile
+  );
 
   useEffect(() => {
 
@@ -715,12 +726,12 @@ tailRight.rotation.z =
       ></div>
 
       <motion.div
-
         className={`card ${
           flip ? "flip" : ""
         }`}
-
         onHoverStart={() => {
+
+          if (isMobile) return;
 
           targetX.current = 3;
 
@@ -729,8 +740,9 @@ tailRight.rotation.z =
           }, 200);
 
         }}
-
         onHoverEnd={() => {
+
+          if (isMobile) return;
 
           setFlip(false);
 
@@ -770,10 +782,18 @@ tailRight.rotation.z =
               interaktif dan
               user-friendly.
             </p>
-
+          {isMobile && (
+              <button
+                className="mobile-btn"
+                onClick={() => setFlip(true)}
+              >
+                Show Contact
+              </button>
+            )}
           </div>
 
           <div className="right">
+            
 
             <img
               src={profile}
@@ -781,11 +801,12 @@ tailRight.rotation.z =
             />
 
           </div>
-
+        
         </div>
 
         {/* BACK */}
         <div className="card-face card-back">
+          
 
           <h1>
             📇 Contact Detail
@@ -816,7 +837,14 @@ tailRight.rotation.z =
               Laravel,
             </p>
           </div>
-
+            {isMobile && (
+            <button
+              className="mobile-btn"
+              onClick={() => setFlip(false)}
+            >
+              Back
+            </button>
+          )}
         </div>
 
       </motion.div>
